@@ -137,11 +137,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-@media (min-width: 1024px) {
-  #hero {
-    background-attachment: fixed;
-  }
-}
+
 
 #hero:before {
   content: "";
@@ -789,8 +785,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 #contact {
   background: #f7f7f7;
-  padding: 60px 0 40px 0;
+  padding: 60px 0 60px 0;
   text-align: center;
+  width: 100%;
+
+  
 }
 
 #contact #google-map {
@@ -847,8 +846,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form  {
   
   text-align: center;
-   margin-left: 25%; /* Отступ слева */
-
+   margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+max-width: 1000px;
 }
 
 
